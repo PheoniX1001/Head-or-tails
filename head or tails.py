@@ -96,14 +96,20 @@ def shop():
         dub.pack()
         dub.config(state=tk.DISABLED)
 
-
 def rpl():
-    root.config(state=tk.)
-    
-
-
-
-
+    global coin, counter, k,booster_rolls
+    coin = 50
+    counter = 0
+    k = 0
+    booster_rolls = 0
+    coin_ammount.configure(text=f"Coins: {coin}")
+    counl.configure(text=f"\nNo. of rolls={counter}\n")
+    lab2.configure(text="")
+    result_label.config(text="")
+    ch.config(state=tk.NORMAL)
+    ch2.config(state=tk.NORMAL)
+    shp.config(state=tk.NORMAL)
+     
 
 
         
